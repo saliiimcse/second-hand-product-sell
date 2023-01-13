@@ -1,0 +1,9 @@
+
+.error-page{
+    background-image: url('./Img/404_page_cover.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;   
+}

@@ -25,9 +25,7 @@ const Dashboard = () => {
         fetchData();
     }, [user]);
     return (
-        <div className='container' style={{
-            height: 'calc(100vh - 99px)'
-        }}>
+        <div className='container' >
             <Row>
                 <Col xs={3}>
                     <ul>
@@ -74,7 +72,7 @@ const Dashboard = () => {
                     <Outlet></Outlet>
                 </Col>
             </Row>
-        </div>
+        </div >
     );
 };
 
